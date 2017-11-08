@@ -18,7 +18,7 @@ public class TestHDFS {
     private static Configuration conf = new Configuration();
 
     static {
-        conf.set("fs.default.name", "hdfs://spark183:9000");
+        conf.set("fs.default.name", "hdfs://192.168.11.2:9000");
     }
 
     public static void main(String[] args) throws Exception {
